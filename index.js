@@ -103,7 +103,7 @@ document.addEventListener("DOMContentLoaded", () => {
     cart.updateDOM();
   };
 
-  // Event listeners for incrementing and decrementing quantity, removing items, and toggling favorite state
+  // Event listeners for removing items
   document.addEventListener("click", (event) => {
     if (event.target.classList.contains("fa-trash-alt")) {
       const card = event.target.closest(".card-whole");
