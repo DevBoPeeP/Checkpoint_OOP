@@ -1,0 +1,16 @@
+/* to style liked hearts */
+.liked {
+  color: red;
+}
+
+.card-whole {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  margin: 5px;
+  padding: 20px;
+}
+
+.total-price {
+  position: fixed;
+}
